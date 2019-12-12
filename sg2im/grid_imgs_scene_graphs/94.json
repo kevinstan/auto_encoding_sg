@@ -1,0 +1,33 @@
+[
+    {
+        "objects": [
+            "banana",
+            "glass",
+            "plate",
+            "table",
+            "food"
+        ],
+        "relationships": [
+            [
+                0,
+                "on",
+                3
+            ],
+            [
+                4,
+                "on",
+                2
+            ],
+            [
+                0,
+                "on",
+                2
+            ],
+            [
+                1,
+                "on",
+                4
+            ]
+        ]
+    }
+]

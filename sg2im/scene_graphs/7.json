@@ -1,0 +1,54 @@
+[
+  {
+    "objects": ["man", "shirt", "shoe"],
+    "relationships": [
+      [0, "wearing", 1],
+      [0, "wearing", 2],
+      [1, "above", 2]
+    ]
+  },
+  {
+    "objects": ["man", "shirt", "shoe", "skateboard"],
+    "relationships": [
+      [0, "wearing", 1],
+      [0, "wearing", 2],
+      [1, "above", 2],
+      [3, "below", 0]
+    ]
+  },
+  {
+    "objects": ["man", "shirt", "shoe", "skateboard", "sidewalk"],
+    "relationships": [
+      [0, "wearing", 1],
+      [0, "wearing", 2],
+      [1, "above", 2],
+      [3, "below", 0],
+      [4, "below", 0]
+    ]
+  },
+  {
+    "objects": ["man", "shirt", "shoe", "skateboard", "sidewalk", "pole"],
+    "relationships": [
+      [0, "wearing", 1],
+      [0, "wearing", 2],
+      [1, "above", 2],
+      [3, "below", 0],
+      [4, "below", 0],
+      [3, "on", 4],
+      [5, "by", 4]
+    ]
+  },
+  {
+    "objects": ["man", "shirt", "shoe", "skateboard", "sidewalk", "pole", "hand"],
+    "relationships": [
+      [0, "wearing", 1],
+      [0, "wearing", 2],
+      [1, "above", 2],
+      [3, "below", 0],
+      [4, "below", 0],
+      [3, "on", 4],
+      [5, "by", 4],
+      [6, "on", 0]
+    ]
+  }
+]

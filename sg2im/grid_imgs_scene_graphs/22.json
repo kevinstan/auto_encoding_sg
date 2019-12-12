@@ -1,0 +1,27 @@
+[
+    {
+        "objects": [
+            "mountain",
+            "snow",
+            "pole",
+            "person"
+        ],
+        "relationships": [
+            [
+                1,
+                "on",
+                0
+            ],
+            [
+                0,
+                "on",
+                3
+            ],
+            [
+                3,
+                "holding",
+                2
+            ]
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "objects": ["train", "track", "window"],
+    "relationships": [
+      [0, "on", 1],
+      [1, "below", 0],
+      [2, "on", 0]
+    ]
+  },
+  {
+    "objects": ["train", "track", "window", "person"],
+    "relationships": [
+      [0, "above", 1],
+      [1, "below", 2],
+      [0, "in", 2],
+      [3, "by", 0]
+    ]
+  },
+  {
+    "objects": ["train", "track", "window", "person", "fence"],
+    "relationships": [
+      [0, "above", 1],
+      [1, "below", 2],
+      [0, "in", 2],
+      [3, "by", 0],
+      [4, "by", 3]
+    ]
+  },
+  {
+    "objects": ["train", "track", "window", "person", "fence", "sidewalk"],
+    "relationships": [
+      [0, "above", 1],
+      [1, "below", 2],
+      [0, "in", 2],
+      [3, "by", 0],
+      [4, "by", 3],
+      [3, "standing on", 5]
+    ]
+  },
+  {
+    "objects": ["train", "track", "window", "person", "fence", "sidewalk", "engine"],
+    "relationships": [
+      [0, "above", 1],
+      [1, "below", 2],
+      [0, "in", 2],
+      [3, "by", 0],
+      [4, "by", 3],
+      [3, "standing on", 5],
+      [6, "below", 0]
+    ]
+  }
+]

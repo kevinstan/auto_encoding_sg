@@ -1,0 +1,39 @@
+[
+    {
+        "objects": [
+            "window",
+            "bus",
+            "street",
+            "sign",
+            "wheel",
+            "tire"
+        ],
+        "relationships": [
+            [
+                0,
+                "on",
+                1
+            ],
+            [
+                1,
+                "on",
+                2
+            ],
+            [
+                3,
+                "on",
+                2
+            ],
+            [
+                4,
+                "on",
+                1
+            ],
+            [
+                5,
+                "on",
+                1
+            ]
+        ]
+    }
+]

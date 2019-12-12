@@ -1,0 +1,40 @@
+[
+    {
+        "objects": [
+            "hair",
+            "short",
+            "girl",
+            "shoe",
+            "pole",
+            "woman",
+            "fence"
+        ],
+        "relationships": [
+            [
+                5,
+                "has",
+                0
+            ],
+            [
+                3,
+                "on",
+                4
+            ],
+            [
+                3,
+                "has",
+                4
+            ],
+            [
+                5,
+                "on",
+                6
+            ],
+            [
+                0,
+                "on",
+                2
+            ]
+        ]
+    }
+]

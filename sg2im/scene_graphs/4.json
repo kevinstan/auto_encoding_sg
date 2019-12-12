@@ -1,0 +1,54 @@
+[
+  {
+    "objects": ["motorcycle", "person", "tree"],
+    "relationships": [
+      [1, "on", 0],
+      [2, "above", 1],
+      [0, "below", 2]
+    ]
+  },
+  {
+    "objects": ["motorcycle", "person", "tree", "street"],
+    "relationships": [
+      [1, "on", 0],
+      [2, "above", 1],
+      [0, "below", 2],
+      [0, "on", 3]
+    ]
+  },
+  {
+    "objects": ["motorcycle", "person", "tree", "street", "fence"],
+    "relationships": [
+      [1, "on", 0],
+      [2, "above", 1],
+      [0, "below", 2],
+      [0, "on", 3],
+      [4, "by", 3]
+    ]
+  },
+  {
+    "objects": ["motorcycle", "person", "tree", "street", "fence", "sidewalk"],
+    "relationships": [
+      [1, "on", 0],
+      [2, "above", 1],
+      [0, "below", 2],
+      [0, "on", 3],
+      [4, "by", 3],
+      [5, "by", 4],
+      [5, "below", 2]
+    ]
+  },
+  {
+    "objects": ["motorcycle", "person", "tree", "street", "fence", "sidewalk", "wheel"],
+    "relationships": [
+      [1, "on", 0],
+      [2, "above", 1],
+      [0, "below", 2],
+      [0, "on", 3],
+      [4, "by", 3],
+      [5, "by", 4],
+      [5, "below", 2],
+      [6, "on", 0]
+    ]
+  }
+]

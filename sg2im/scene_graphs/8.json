@@ -1,0 +1,52 @@
+[
+  {
+    "objects": ["leg", "pizza", "bed"],
+    "relationships": [
+      [1, "on", 2],
+      [0, "on", 2],
+      [1, "above", 0]
+    ]
+  },
+  {
+    "objects": ["leg", "pizza", "bed", "table"],
+    "relationships": [
+      [1, "on", 2],
+      [0, "on", 2],
+      [1, "above", 0],
+      [3, "by", 2]
+    ]
+  },
+  {
+    "objects": ["leg", "pizza", "bed", "table", "lamp"],
+    "relationships": [
+      [1, "on", 2],
+      [0, "on", 2],
+      [1, "above", 0],
+      [3, "by", 2],
+      [4, "on", 3]
+    ]
+  },
+  {
+    "objects": ["leg", "pizza", "bed", "table", "lamp", "pillow"],
+    "relationships": [
+      [1, "on", 2],
+      [0, "on", 2],
+      [1, "above", 0],
+      [3, "by", 2],
+      [4, "on", 3],
+      [5, "on", 2]
+    ]
+  },
+  {
+    "objects": ["leg", "pizza", "bed", "table", "lamp", "pillow", "roof"],
+    "relationships": [
+      [1, "on", 2],
+      [0, "on", 2],
+      [1, "above", 0],
+      [3, "by", 2],
+      [4, "on", 3],
+      [5, "on", 2],
+      [6, "above", 2]
+    ]
+  }
+]
